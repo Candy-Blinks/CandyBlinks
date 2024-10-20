@@ -13,13 +13,13 @@ const DM_Sans_init = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://candyblinks.fun/"),
   title: {
-    default: "Candy Blinks | Candy Machine BLink Generator",
+    default: "Candy Blinks | Candy Machine Blink Generator",
     template: "%s | Candy Blinks",
   },
   description:
-    "Create and manage your Candy Machine BLinks effortlessly with our intuitive platform. Simplify NFT distribution and minting with ease.",
+    "Create and manage your Candy Machine Blinks effortlessly with our intuitive platform. Simplify NFT distribution and minting with ease.",
   openGraph: {
-    title: "Candy Blinks - Candy Machine BLink Generator",
+    title: "Candy Blinks - Candy Machine Blink Generator",
     description: "Easily generate Candy Machine BLinks",
     url: "https://candyblinks.fun/",
     siteName: "CandyBlinks",
