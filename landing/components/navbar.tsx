@@ -43,7 +43,6 @@ export default function Navbar() {
               href="#home"
               onClick={() => {
                 setBarState(false);
-                console.log(barState);
               }}
             >
               Home
@@ -55,7 +54,6 @@ export default function Navbar() {
               href="#about"
               onClick={() => {
                 setBarState(false);
-                console.log(barState);
               }}
             >
               About
@@ -67,7 +65,6 @@ export default function Navbar() {
               href="#partners"
               onClick={() => {
                 setBarState(false);
-                console.log(barState);
               }}
             >
               Partners
@@ -81,24 +78,11 @@ export default function Navbar() {
               rel="noreferrer"
               onClick={() => {
                 setBarState(false);
-                console.log(barState);
               }}
             >
               Whitepaper
             </Link>
           </li>
-          {/* <li className={`${barState ? "block mt-8" : "lg:block hidden"}`}>
-            <Link
-              className={` lg:text-xl text-3xl  dm-sans m-4  hover:text-slate-400 text-slate-100 transition duration-200`}
-              href="#contact"
-              onClick={() => {
-                setBarState(false);
-                console.log(barState);
-              }}
-            >
-              Contact
-            </Link>
-          </li> */}
         </ul>
       </div>
       <div>
@@ -125,14 +109,12 @@ export default function Navbar() {
               <GrClose
                 onClick={() => {
                   setBarState(!barState);
-                  console.log(barState);
                 }}
               />
             ) : (
               <FaBars
                 onClick={() => {
                   setBarState(!barState);
-                  console.log(barState);
                 }}
               />
             )}
